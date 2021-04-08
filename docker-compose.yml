@@ -1,0 +1,5 @@
+version: "3.9"
+services:
+  standalone:
+    build: .
+    ports: ["8080:80"]
